@@ -1,2 +1,2 @@
 # Design
-A C program is used to turn on and off a LED light connected to a Raspberry PI and a breadboard.
+This program will allow the user to record when a person exits or enters a study room and will identify when occupancy is full.
