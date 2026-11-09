@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
 	
 	// File creation
 	FILE* fp;			// Initialise file pointer
-	fp = fopen("output.txt", "w");	// Create or overwrite an output file
+	fp = fopen("../data/output.txt", "w");	// Create or overwrite an output file
 	if(fp == NULL) {
 		fprintf(stderr, "Failed to create a file.\n");
 		return 1;
