@@ -26,7 +26,9 @@ int main(int argc, char* argv[]) {
 
 	// Formatting
 	fprintf(fp, "Current Occupancy\tSystem Status\tFull Indicator LED\n");
-	fprintf(fp, "%d/%d\t\t\t\t\tSPACE AVAILABLE\tOFF\n", count, max);
+	if(max!=0){
+		fprintf(fp, "%d/%d\t\t\t\t\tSPACE AVAILABLE\tOFF\n", count, max);
+	}
 	printf("1: Add\n2: Remove\n3: Quit\n");
 
 	// Input
