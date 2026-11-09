@@ -1,9 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>	// EXIT_FAILURE, EXIT_SUCCESS
 int main(){
-
+int choice = 0;
 printf("Menu options: add remove quit init\n");
-
-
-return EXIT_SUCCESS
+scanf("%d", choice);
+if (choice == 1) {
+printf("yes");
+}
+return 0;
 }
