@@ -1,0 +1,8 @@
+Current Occupancy	System Status	Full Indicator LED
+0/3					SPACE AVAILABLE	OFF
+1/3					SPACE AVAILABLE	OFF
+2/3					SPACE AVAILABLE	OFF
+3/3					ROOM FULL		ON
+2/3					SPACE AVAILABLE	OFF
+3/3					ROOM FULL		ON
+3/3					ROOM FULL		ON
